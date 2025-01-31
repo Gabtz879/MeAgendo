@@ -157,6 +157,12 @@ color: rgb(255, 255, 255);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Logo #1 Meagendo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
@@ -233,7 +239,8 @@ border-radius:10px;</string>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
-  <include location="test.qrc"/>
+  <include location="Iconos/test.qrc"/>
+  <include location="Iconos/test.qrc"/>
  </resources>
  <connections/>
 </ui>

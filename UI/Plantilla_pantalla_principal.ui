@@ -21,7 +21,8 @@
   </property>
   <property name="styleSheet">
    <string notr="true">QWidget#centralwidget{
-	background-color: qlineargradient(spread:reflect, x1:0, y1:1, x2:0.318, y2:0.688, stop:0 rgba(68, 95, 116, 255), stop:1 rgba(48, 123, 163, 255));}</string>
+background-color: qlineargradient(spread:reflect, x1:0, y1:1, x2:0.318, y2:0.688, stop:0 rgba(68, 95, 116, 255), stop:1 rgba(48, 123, 163, 255));
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QHBoxLayout" name="horizontalLayout">
@@ -175,17 +176,24 @@
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 14pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 13pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;
-</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>   MeAgendo   </string>
+                 <string>  MeAgendo</string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono menu.jpeg</normaloff>:/prefijoNuevo/Icono menu.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono menu.png</normaloff>:/prefijoNuevo/Icono menu.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -231,13 +239,13 @@ background-color: transparent;
                   <x>0</x>
                   <y>0</y>
                   <width>200</width>
-                  <height>75</height>
+                  <height>65</height>
                  </rect>
                 </property>
                 <property name="minimumSize">
                  <size>
                   <width>1</width>
-                  <height>75</height>
+                  <height>65</height>
                  </size>
                 </property>
                 <property name="maximumSize">
@@ -250,16 +258,24 @@ background-color: transparent;
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 10pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>     Inicio        </string>
+                 <string>    Inicio        </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Inicio.jpeg</normaloff>:/prefijoNuevo/Icono Inicio.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Inicio.png</normaloff>:/prefijoNuevo/Icono Inicio.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -272,7 +288,7 @@ background-color: transparent;</string>
                 <property name="geometry">
                  <rect>
                   <x>0</x>
-                  <y>65</y>
+                  <y>70</y>
                   <width>200</width>
                   <height>65</height>
                  </rect>
@@ -293,16 +309,24 @@ background-color: transparent;</string>
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 9pt &quot;Cascadia Code&quot;;
-color: rgb(255, 255, 255);background-color: transparent;
-</string>
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
+color: rgb(255, 255, 255);
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>  Lista Pendientes    </string>
+                 <string>  Lista Pendientes  </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Lista de pendientes.jpeg</normaloff>:/prefijoNuevo/Icono Lista de pendientes.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Lista de pendientes.png</normaloff>:/prefijoNuevo/Icono Lista de pendientes.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -336,17 +360,24 @@ color: rgb(255, 255, 255);background-color: transparent;
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 10pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;
-</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>     Pomodoro      </string>
+                 <string>    Pomodoro      </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icoco pomodoro.jpeg</normaloff>:/prefijoNuevo/Icoco pomodoro.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icoco pomodoro.png</normaloff>:/prefijoNuevo/Icoco pomodoro.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -386,22 +417,29 @@ background-color: transparent;
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 10pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;
-</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>  Calendario      </string>
+                 <string>    Calendario      </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Calendario.jpeg</normaloff>:/prefijoNuevo/Icono Calendario.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Calendario.png</normaloff>:/prefijoNuevo/Icono Calendario.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
-                  <width>50</width>
-                  <height>50</height>
+                  <width>30</width>
+                  <height>30</height>
                  </size>
                 </property>
                </widget>
@@ -436,17 +474,24 @@ background-color: transparent;
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 10pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;
-</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
                  <string>   Cerrar Sesion   </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono salir.jpeg</normaloff>:/prefijoNuevo/Icono salir.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono salir.png</normaloff>:/prefijoNuevo/Icono salir.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -480,17 +525,24 @@ background-color: transparent;
                  <cursorShape>PointingHandCursor</cursorShape>
                 </property>
                 <property name="styleSheet">
-                 <string notr="true">font: 700 10pt &quot;Cascadia Code&quot;;
+                 <string notr="true">QPushButton{
+border:none;
+background: transparent;
+padding: 10px;
+text-align:left;
+font: 700 10pt &quot;Cascadia Code&quot;;
 color: rgb(255, 255, 255);
-background-color: transparent;
-</string>
+}
+QPushButton:hover{
+	background-color: rgb(43, 75, 93);
+}</string>
                 </property>
                 <property name="text">
-                 <string>    Estadisticas   </string>
+                 <string>   Estadisticas   </string>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Estadisticas.jpeg</normaloff>:/prefijoNuevo/Icono Estadisticas.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Estadisticas.png</normaloff>:/prefijoNuevo/Icono Estadisticas.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -600,8 +652,8 @@ background-color: transparent;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Usuario.jpeg</normaloff>:/prefijoNuevo/Icono Usuario.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Usuario.png</normaloff>:/prefijoNuevo/Icono Usuario.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -641,8 +693,8 @@ background-color: transparent;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Notificaciones.jpeg</normaloff>:/prefijoNuevo/Icono Notificaciones.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Notificaciones.png</normaloff>:/prefijoNuevo/Icono Notificaciones.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -682,8 +734,8 @@ background-color: transparent;
                  <string/>
                 </property>
                 <property name="icon">
-                 <iconset resource="test.qrc">
-                  <normaloff>:/prefijoNuevo/Icono Ajustes.jpeg</normaloff>:/prefijoNuevo/Icono Ajustes.jpeg</iconset>
+                 <iconset resource="Iconos/test.qrc">
+                  <normaloff>:/prefijoNuevo/Icono Ajustes.png</normaloff>:/prefijoNuevo/Icono Ajustes.png</iconset>
                 </property>
                 <property name="iconSize">
                  <size>
@@ -820,7 +872,7 @@ color: rgb(255, 255, 255);</string>
                    <string notr="true">background-color: transparent;</string>
                   </property>
                   <property name="currentIndex">
-                   <number>0</number>
+                   <number>2</number>
                   </property>
                   <widget class="QWidget" name="Estadisticas">
                    <layout class="QGridLayout" name="gridLayout_4">
@@ -923,7 +975,7 @@ color: rgb(255, 255, 255);</string>
                                 <string/>
                                </property>
                                <property name="pixmap">
-                                <pixmap resource="test.qrc">:/prefijoNuevo/Captura estadisticas estado de las tareas.jpeg</pixmap>
+                                <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Captura estadisticas estado de las tareas.jpeg</pixmap>
                                </property>
                                <property name="scaledContents">
                                 <bool>true</bool>
@@ -945,7 +997,7 @@ color: rgb(255, 255, 255);</string>
                              <property name="geometry">
                               <rect>
                                <x>0</x>
-                               <y>0</y>
+                               <y>-10</y>
                                <width>321</width>
                                <height>201</height>
                               </rect>
@@ -954,7 +1006,7 @@ color: rgb(255, 255, 255);</string>
                               <string/>
                              </property>
                              <property name="pixmap">
-                              <pixmap>Captura tareas 2, progreso atrasadas.jpeg</pixmap>
+                              <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Captura tareas 2, progreso atrasadas.jpeg</pixmap>
                              </property>
                              <property name="scaledContents">
                               <bool>true</bool>
@@ -1007,7 +1059,7 @@ color: rgb(255, 255, 255);</string>
                              <string/>
                             </property>
                             <property name="pixmap">
-                             <pixmap resource="test.qrc">:/prefijoNuevo/Captura estaditicas de progreso.jpeg</pixmap>
+                             <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Captura estaditicas de progreso.jpeg</pixmap>
                             </property>
                             <property name="scaledContents">
                              <bool>true</bool>
@@ -1088,7 +1140,7 @@ background-color: transparent;
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="test.qrc">
+                        <iconset>
                          <normaloff>:/prefijoNuevo/Icono ajustes 2.jpeg</normaloff>:/prefijoNuevo/Icono ajustes 2.jpeg</iconset>
                        </property>
                        <property name="iconSize">
@@ -1139,7 +1191,7 @@ background-color: transparent;
                           <enum>QFrame::Shadow::Raised</enum>
                          </property>
                          <layout class="QVBoxLayout" name="verticalLayout_14">
-                          <item alignment="|Qt::AlignmentFlag::AlignVCenter">
+                          <item alignment="Qt::AlignmentFlag::Qt::AlignmentFlag::AlignVCenter">
                            <widget class="QLabel" name="label_19">
                             <property name="maximumSize">
                              <size>
@@ -1163,7 +1215,7 @@ background-color: transparent;
                              <string/>
                             </property>
                             <property name="pixmap">
-                             <pixmap resource="test.qrc">:/prefijoNuevo/Lista captura.jpeg</pixmap>
+                             <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Lista captura.jpeg</pixmap>
                             </property>
                             <property name="scaledContents">
                              <bool>true</bool>
@@ -1310,7 +1362,7 @@ background-color: transparent;
                               <string/>
                              </property>
                              <property name="pixmap">
-                              <pixmap resource="test.qrc">:/prefijoNuevo/Captura estadisticas estado de las tareas.jpeg</pixmap>
+                              <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Captura estadisticas estado de las tareas.jpeg</pixmap>
                              </property>
                              <property name="scaledContents">
                               <bool>true</bool>
@@ -1405,7 +1457,7 @@ background-color: transparent;
                              <string/>
                             </property>
                             <property name="pixmap">
-                             <pixmap resource="test.qrc">:/prefijoNuevo/Lista captura.jpeg</pixmap>
+                             <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Lista captura.jpeg</pixmap>
                             </property>
                             <property name="scaledContents">
                              <bool>true</bool>
@@ -1478,7 +1530,7 @@ background-color: transparent;
                              <string/>
                             </property>
                             <property name="pixmap">
-                             <pixmap resource="test.qrc">:/prefijoNuevo/Captura estaditicas de progreso.jpeg</pixmap>
+                             <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Captura estaditicas de progreso.jpeg</pixmap>
                             </property>
                             <property name="scaledContents">
                              <bool>true</bool>
@@ -1594,10 +1646,10 @@ border-radius:10px;
 background-color: rgb(255, 255, 255);</string>
                           </property>
                           <property name="inputMask">
-                           <string> </string>
+                           <string/>
                           </property>
                           <property name="text">
-                           <string> </string>
+                           <string/>
                           </property>
                          </widget>
                          <widget class="QPushButton" name="pushButton_5">
@@ -1631,8 +1683,8 @@ background-color: rgb(255, 255, 255);</string>
                            <string/>
                           </property>
                           <property name="icon">
-                           <iconset resource="test.qrc">
-                            <normaloff>:/prefijoNuevo/Icono Busqueda.jpeg</normaloff>:/prefijoNuevo/Icono Busqueda.jpeg</iconset>
+                           <iconset resource="Iconos/test.qrc">
+                            <normaloff>:/prefijoNuevo/Icono Busqueda.png</normaloff>:/prefijoNuevo/Icono Busqueda.png</iconset>
                           </property>
                           <property name="iconSize">
                            <size>
@@ -1904,7 +1956,7 @@ border-radius:10px;</string>
                         <string/>
                        </property>
                        <property name="pixmap">
-                        <pixmap resource="test.qrc">:/prefijoNuevo/pomodoro.png</pixmap>
+                        <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/pomodoro.png</pixmap>
                        </property>
                        <property name="scaledContents">
                         <bool>true</bool>
@@ -1923,7 +1975,7 @@ border-radius:10px;</string>
                         <string/>
                        </property>
                        <property name="icon">
-                        <iconset resource="test.qrc">
+                        <iconset>
                          <normaloff>:/prefijoNuevo/Icono ajustes 2.jpeg</normaloff>:/prefijoNuevo/Icono ajustes 2.jpeg</iconset>
                        </property>
                        <property name="iconSize">
@@ -1990,7 +2042,8 @@ background-color: transparent;
   </widget>
  </widget>
  <resources>
-  <include location="test.qrc"/>
+  <include location="Iconos/test.qrc"/>
+  <include location="../Iconos/test.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -7,13 +7,13 @@
     <x>0</x>
     <y>0</y>
     <width>750</width>
-    <height>500</height>
+    <height>521</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>750</width>
-    <height>500</height>
+    <height>521</height>
    </size>
   </property>
   <property name="maximumSize">
@@ -47,7 +47,7 @@ color: rgb(2, 165, 163);</string>
      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Iniciar sesión&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="btnAcceder">
     <property name="geometry">
      <rect>
       <x>130</x>
@@ -55,6 +55,9 @@ color: rgb(2, 165, 163);</string>
       <width>121</width>
       <height>31</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(43, 182, 179);
@@ -67,7 +70,7 @@ font: 9pt &quot;Cascadia Code&quot;;</string>
      <string>Iniciar sesión</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit">
+   <widget class="QLineEdit" name="txtUsuario">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -84,13 +87,13 @@ border-color: rgb(0, 0, 0);</string>
      <bool>true</bool>
     </property>
     <property name="placeholderText">
-     <string>    Nombre</string>
+     <string>    Usuario</string>
     </property>
     <property name="clearButtonEnabled">
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEdit_2">
+   <widget class="QLineEdit" name="txtClave">
     <property name="geometry">
      <rect>
       <x>90</x>
@@ -99,11 +102,14 @@ border-color: rgb(0, 0, 0);</string>
       <height>21</height>
      </rect>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
     <property name="dragEnabled">
      <bool>true</bool>
     </property>
     <property name="placeholderText">
-     <string>     Contraseña</string>
+     <string>     Clave</string>
     </property>
     <property name="clearButtonEnabled">
      <bool>true</bool>
@@ -114,8 +120,8 @@ border-color: rgb(0, 0, 0);</string>
      <rect>
       <x>390</x>
       <y>0</y>
-      <width>361</width>
-      <height>461</height>
+      <width>360</width>
+      <height>501</height>
      </rect>
     </property>
     <property name="styleSheet">
@@ -124,11 +130,14 @@ border-color: rgb(0, 0, 0);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="test.qrc">:/prefijoNuevo/Fondo MeAgendo #1.jpeg</pixmap>
+    </property>
    </widget>
    <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>70</x>
       <y>40</y>
       <width>71</width>
       <height>21</height>
@@ -145,7 +154,7 @@ color: rgb(255, 255, 255);</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>20</x>
       <y>20</y>
       <width>41</width>
       <height>51</height>
@@ -157,12 +166,18 @@ color: rgb(255, 255, 255);</string>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap resource="test.qrc">:/prefijoNuevo/Logo #1 Meagendo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
    <widget class="QLabel" name="label_5">
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>110</y>
+      <y>120</y>
       <width>291</width>
       <height>71</height>
      </rect>
@@ -179,7 +194,7 @@ color: rgb(255, 255, 255);</string>
     <property name="geometry">
      <rect>
       <x>430</x>
-      <y>190</y>
+      <y>200</y>
       <width>291</width>
       <height>41</height>
      </rect>
@@ -204,10 +219,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>510</x>
-      <y>250</y>
+      <y>260</y>
       <width>121</width>
       <height>41</height>
      </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(43, 182, 179);
@@ -221,56 +239,93 @@ border-radius:10px;</string>
      <string>Crear Cuenta</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="lblMensaje">
     <property name="geometry">
      <rect>
-      <x>100</x>
-      <y>290</y>
-      <width>181</width>
-      <height>16</height>
+      <x>80</x>
+      <y>380</y>
+      <width>231</width>
+      <height>20</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Cascadia Code</family>
+     </font>
+    </property>
     <property name="styleSheet">
-     <string notr="true">font: 600 9pt &quot;Cascadia Code&quot;;</string>
+     <string notr="true">color: rgb(255, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string>Usuario y/o contraseña no validos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnMenu">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>290</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>1</width>
+      <height>16</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>16777215</width>
+      <height>16777215</height>
+     </size>
+    </property>
+    <property name="sizeIncrement">
+     <size>
+      <width>0</width>
+      <height>80</height>
+     </size>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+border:none;
+background: transparent;
+font: 600 9pt &quot;Cascadia Code&quot;;
+}
+</string>
     </property>
     <property name="text">
      <string>¿Olvidaste tu contraseña?</string>
     </property>
-    <property name="openExternalLinks">
-     <bool>true</bool>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
     </property>
    </widget>
    <zorder>label_2</zorder>
    <zorder>label</zorder>
-   <zorder>pushButton</zorder>
-   <zorder>lineEdit</zorder>
-   <zorder>lineEdit_2</zorder>
+   <zorder>btnAcceder</zorder>
+   <zorder>txtUsuario</zorder>
+   <zorder>txtClave</zorder>
    <zorder>label_3</zorder>
    <zorder>label_4</zorder>
    <zorder>label_5</zorder>
    <zorder>label_6</zorder>
    <zorder>pushButton_2</zorder>
-   <zorder>label_7</zorder>
-  </widget>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>750</width>
-     <height>22</height>
-    </rect>
-   </property>
-   <widget class="QMenu" name="menuMeAgendo">
-    <property name="title">
-     <string>MeAgendo</string>
-    </property>
-   </widget>
-   <addaction name="menuMeAgendo"/>
+   <zorder>lblMensaje</zorder>
+   <zorder>btnMenu</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources>
+  <include location="test.qrc"/>
+  <include location="test.qrc"/>
   <include location="test.qrc"/>
  </resources>
  <connections/>

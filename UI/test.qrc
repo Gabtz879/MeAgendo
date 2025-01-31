@@ -1,0 +1,33 @@
+<RCC>
+  <qresource prefix="prefijoNuevo">
+    <file>Icono Calendario.png</file>
+    <file>Captura tareas 2, progreso atrasadas.jpeg</file>
+    <file>Lista captura.jpeg</file>
+    <file>Captura estaditicas de progreso.jpeg</file>
+    <file>Fondo MeAgendo #1.jpeg</file>
+  </qresource>
+  <qresource prefix="prefijoNuevo">
+    <file>Icoco pomodoro.png</file>
+    <file>Icono ajustes 2.png</file>
+    <file>Icono Ajustes.png</file>
+    <file>Icono Busqueda.png</file>
+    <file>Icono Calendario.png</file>
+    <file>Icono editar.png</file>
+    <file>Icono eliminar.png</file>
+    <file>Icono Estadisticas.png</file>
+    <file>Icono Eventos.png</file>
+    <file>Icono Inicio.png</file>
+    <file>Icono Lista de pendientes.png</file>
+    <file>Icono menu.png</file>
+    <file>Icono Notificaciones.png</file>
+    <file>Icono salir.png</file>
+    <file>Icono Usuario 2.png</file>
+    <file>Icono Usuario.png</file>
+    <file>Logo #1 Meagendo.png</file>
+    <file>Logo #2 MeAgendo.png</file>
+    <file>pomodoro.png</file>
+    <file>Screenshot 2025-01-15 145140.png</file>
+    <file>pomodoro.png</file>
+    <file>Captura estadisticas estado de las tareas.jpeg</file>
+  </qresource>
+</RCC>

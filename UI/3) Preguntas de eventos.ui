@@ -203,7 +203,7 @@ font: 18pt &quot;Berlin Sans FB&quot;;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../../../../Downloads/test.qrc">:/newPrefix/Screenshot 2025-01-15 145140.jpg</pixmap>
+      <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Screenshot 2025-01-15 145140.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -235,7 +235,7 @@ font: 18pt &quot;Berlin Sans FB&quot;;
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="../../../../Downloads/test.qrc">:/newPrefix/Screenshot 2025-01-15 145140.jpg</pixmap>
+      <pixmap resource="Iconos/test.qrc">:/prefijoNuevo/Screenshot 2025-01-15 145140.png</pixmap>
      </property>
      <property name="scaledContents">
       <bool>true</bool>
@@ -245,7 +245,9 @@ font: 18pt &quot;Berlin Sans FB&quot;;
   </widget>
  </widget>
  <resources>
-  <include location="../../../../Downloads/test.qrc"/>
+  <include location="Iconos/test.qrc"/>
+  <include location="Iconos/test.qrc"/>
+  <include location="../Iconos/test.qrc"/>
  </resources>
  <connections/>
 </ui>
