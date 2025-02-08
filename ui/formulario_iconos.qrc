@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="formulario_iconos">
+    <file>Iconos/Icono_equis.png</file>
+    <file>Iconos/Icono_menos.png</file>
+    <file>Iconos/flecha_arriba_expandir .png</file>
+  </qresource>
+</RCC>

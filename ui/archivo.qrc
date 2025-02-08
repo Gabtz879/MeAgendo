@@ -1,0 +1,12 @@
+<RCC>
+  <qresource prefix="Iconos">
+    <file>Iconos/Expandir.png</file>
+    <file>Iconos/Icono calendario.png</file>
+    <file>Iconos/Icono estadistica.png</file>
+    <file>Iconos/Icono inicio.png</file>
+    <file>Iconos/Icono lista de pendientes.png</file>
+    <file>Iconos/Icono menu.png</file>
+    <file>Iconos/Icono Pomodoro.png</file>
+    <file>Iconos/Icono Salir.png</file>
+  </qresource>
+</RCC>

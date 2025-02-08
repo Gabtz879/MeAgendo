@@ -1,0 +1,3 @@
+Sidebar: #50549c
+DetrasPushBotton:#40457c
+Fondo: #161631
